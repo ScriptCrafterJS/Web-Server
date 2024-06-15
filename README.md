@@ -4,6 +4,12 @@ Series of Node.js HTTP servers. First, it returned a basic textual response. The
 ## Usage
 - pick one of the .js files inside the first-servers folder
 - run one of the files .js using node json.js for example
-- test the server by another terminal => curl http://localhost:8000
+```bash
+node json.js
+```
+- test the server by another terminal
+```bash
+curl http://localhost:8000
+```
 - for route.js => curl http://localhost:8000/books or http://localhost:8000/authors
 you could test the servers on the terminal and search engine
